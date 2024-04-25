@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='lab4.css'>
+    <script src='lab4.js'></script>
+</head>
+<body>
+    <section>
+    <div class="container">
+    <h2>FROM ĐĂNG NHẬP</h2>
+    <form>
+        <p>
+            <span class="label" name="ten" onclick="">Tên đăng nhâp</span>
+            <input type="text" class="value" id="ten">
+        </p>
+        <p>
+            <span class="label" name="pass">Mật khẩu</span>
+            <input type="password" class="value" id="pass">
+        </p>
+        <button class="btn" type="button" onclick="dangnhap()">Đăng Nhập</button>
+        <button class="btn" type="button" onclick="hienthi()">Đăng ký</button>
+
+    </div>
+    </section>
+    <section>
+        <div class="container2">
+        <h2>FROM ĐĂNG KÝ</h2>
+        <form>
+            <p>
+                <span class="label">Tên đăng nhâp</span>
+                <input type="text" class="value" id="t">
+            </p>
+            <p>
+                <span class="email">Email</span>
+                <input type="text" class="value" id="e">
+            </p>
+            <p>
+                <span class="label">Mật khẩu</span>
+                <input type="password" class="value" id="pass1">
+            </p>
+            <p>
+                <span class="label">Nhập lại mật khẩu</span>
+                <input type="password" class="value" id="pass2">
+            </p>
+            <button class="btn" type="button" onclick="dangky()">Đăng ký</button>
+            <button class="btn" type="button" onclick="reset()">Reset</button>
+    </div>
+    </section>
+</body>
+</html>
